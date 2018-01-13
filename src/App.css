@@ -22,6 +22,16 @@
   font-size: large;
 }
 
+.nightMode{
+  color: white;
+  background-color: black;
+  }
+  
+  .dayMode{
+    color: black;
+    background-color: white;
+    }
+  
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

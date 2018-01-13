@@ -4,10 +4,11 @@ import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 
 import App from "./App";
 import { unregister } from "./registerServiceWorker";
+import "./index.css";
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <App />
+    <App/>
   </MuiThemeProvider>,
   document.getElementById("root")
 );
